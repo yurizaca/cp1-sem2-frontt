@@ -1,0 +1,32 @@
+.store-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+
+.store img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  height: 20rem;
+}
+
+.store h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.store span {
+  font-size: 1rem;
+  font-weight: normal;
+}
